@@ -737,6 +737,7 @@
 
             <ul class="project-list">
               <li
+                project-list-item
                 class="project-item active"
                 data-filter-item
                 data-category="fullstack">
@@ -747,18 +748,22 @@
                     </div>
 
                     <img
+                      project-image
                       src="./assets/images/project-1.png"
                       alt="finance"
                       loading="lazy" />
                   </figure>
 
-                  <h3 class="project-title">Heartfulness Magazine</h3>
+                  <h3 project-title class="project-title">
+                    Heartfulness Magazine
+                  </h3>
 
-                  <p class="project-category">Fullstack</p>
+                  <p project-text class="project-category">Fullstack</p>
                 </a>
               </li>
 
               <li
+                project-list-item
                 class="project-item active"
                 data-filter-item
                 data-category="fullstack">
@@ -769,18 +774,20 @@
                     </div>
 
                     <img
+                      project-image
                       src="./assets/images/project-2.png"
                       alt="orizon"
                       loading="lazy" />
                   </figure>
 
-                  <h3 class="project-title">Bloomberg Clone</h3>
+                  <h3 project-title class="project-title">Bloomberg Clone</h3>
 
-                  <p class="project-category">Fullstack</p>
+                  <p project-text class="project-category">Fullstack</p>
                 </a>
               </li>
 
               <li
+                project-list-item
                 class="project-item active"
                 data-filter-item
                 data-category="frontend">
@@ -791,18 +798,20 @@
                     </div>
 
                     <img
+                      project-image
                       src="./assets/images/project-33.png"
                       alt="fundo"
                       loading="lazy" />
                   </figure>
 
-                  <h3 class="project-title">USHeartfulness</h3>
+                  <h3 project-title class="project-title">USHeartfulness</h3>
 
-                  <p class="project-category">Frontend</p>
+                  <p project-text class="project-category">Frontend</p>
                 </a>
               </li>
 
               <li
+                project-list-item
                 class="project-item active"
                 data-filter-item
                 data-category="fullstack">
@@ -813,18 +822,22 @@
                     </div>
 
                     <img
+                      project-image
                       src="./assets/images/project-4.png"
                       alt="brawlhalla"
                       loading="lazy" />
                   </figure>
 
-                  <h3 class="project-title">Heartfulness Meditation</h3>
+                  <h3 project-title class="project-title">
+                    Heartfulness Meditation
+                  </h3>
 
-                  <p class="project-category">Fullstack</p>
+                  <p project-text class="project-category">Fullstack</p>
                 </a>
               </li>
 
               <li
+                project-list-item
                 class="project-item active"
                 data-filter-item
                 data-category="frontend">
@@ -835,18 +848,22 @@
                     </div>
 
                     <img
+                      project-image
                       src="./assets/images/project-5.png"
                       alt="dsm."
                       loading="lazy" />
                   </figure>
 
-                  <h3 class="project-title">Kanha Shantivanam(Heartfulness)</h3>
+                  <h3 project-title class="project-title">
+                    Kanha Shantivanam(Heartfulness)
+                  </h3>
 
-                  <p class="project-category">Frontend</p>
+                  <p project-text class="project-category">Frontend</p>
                 </a>
               </li>
 
               <li
+                project-list-item
                 class="project-item active"
                 data-filter-item
                 data-category="fullstack">
@@ -857,18 +874,20 @@
                     </div>
 
                     <img
+                      project-image
                       src="./assets/images/project-6.png"
                       alt="metaspark"
                       loading="lazy" />
                   </figure>
 
-                  <h3 class="project-title">Daaji Official</h3>
+                  <h3 project-title class="project-title">Daaji Official</h3>
 
-                  <p class="project-category">Fullstack</p>
+                  <p project-text class="project-category">Fullstack</p>
                 </a>
               </li>
 
               <li
+                project-list-item
                 class="project-item active"
                 data-filter-item
                 data-category="frontend">
@@ -879,18 +898,20 @@
                     </div>
 
                     <img
+                      project-image
                       src="./assets/images/project-7.png"
                       alt="summary"
                       loading="lazy" />
                   </figure>
 
-                  <h3 class="project-title">Notes App</h3>
+                  <h3 project-title class="project-title">Notes App</h3>
 
-                  <p class="project-category">Frontend</p>
+                  <p project-text class="project-category">Frontend</p>
                 </a>
               </li>
 
               <li
+                project-list-item
                 class="project-item active"
                 data-filter-item
                 data-category="backend">
@@ -901,19 +922,53 @@
                     </div>
 
                     <img
+                      project-image
                       src="./assets/images/project-8.webp"
                       alt="task manager"
                       style="filter: invert()"
                       loading="lazy" />
                   </figure>
 
-                  <h3 class="project-title">Aurigine Pharma</h3>
+                  <h3 project-title class="project-title">Aurigine Pharma</h3>
 
-                  <p class="project-category">Backend</p>
+                  <p project-text class="project-category">Backend</p>
                 </a>
               </li>
             </ul>
           </section>
+          <div class="modal-container" project-modal-container>
+            <div class="overlay" project-overlay></div>
+
+            <section
+              class="testimonials-modal"
+              style="display: flex; flex-direction: column">
+              <button class="modal-close-btn" project-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Ashruf"
+                    width="100"
+                    project-modal-img />
+                </figure>
+
+                <!-- <img src="./assets/images/icon-quote.svg" alt="quote icon" /> -->
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" project-modal-title></h4>
+                <p>use this below link to open the site &#8595;</p>
+                <a href="#" target="_blank" project-link></a>
+
+                <div>
+                  <p style="list-style: circle" project-modal-text />
+                </div>
+              </div>
+            </section>
+          </div>
         </article>
 
         <!--
@@ -923,10 +978,47 @@
         <article class="blog" data-page="blog">
           <header>
             <h2 class="h2 article-title">Blog</h2>
+            <p style="color: white">
+              To Watch my latest blogs<a
+                style="color: red"
+                target="_blank"
+                href="https://manojgundiliwd.blogspot.com/">
+                click here</a
+              >
+            </p>
           </header>
 
           <section class="blog-posts">
             <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a
+                  href="https://manojgundiliwd.blogspot.com/2024/08/ai-shaping-generations.html"
+                  target="_blank">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/AIblog.jpg"
+                      alt="Design conferences in 2022"
+                      loading="lazy" />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Technology</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">May, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">AI: Shaping Generations</h3>
+
+                    <p class="blog-text">
+                      Artificial Intelligence (AI) has seeped into every facet
+                      of our lives, from the mundane to the monu...
+                    </p>
+                  </div>
+                </a>
+              </li>
               <li class="blog-post-item">
                 <a
                   href="https://manojgundiliwd.blogspot.com/2024/07/development-jul-30-2024-as-we-move.html"

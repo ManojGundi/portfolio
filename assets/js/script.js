@@ -62,22 +62,22 @@ const projects = [
  
     <strong>Frontend Development:</strong>
     <ul>
-      <li>Migrated WordPress applications to React Developed and implemented UI components Ensured design consistency across applications Optimized application performance</li>
+      <li style="list-style-type: circle;">Migrated WordPress applications to React Developed and implemented UI components Ensured design consistency across applications Optimized application performance</li>
     </ul>
   
     <strong>Full-Stack Collaboration:</strong>
     <ul>
-      <li>Seamlessly integrated frontend and backend Delivered cohesive user experiences</li>
+      <li style="list-style-type: circle;">Seamlessly integrated frontend and backend Delivered cohesive user experiences</li>
     </ul>
   
     <strong>User Experience:</strong>
     <ul>
-      <li>Contributed to intuitive design Ensured cross-browser compatibility Focused on overall user satisfaction</li>
+      <li style="list-style-type: circle;">Contributed to intuitive design Ensured cross-browser compatibility Focused on overall user satisfaction</li>
     </ul>
  
     <strong>Team Contribution:</strong>
     <ul>
-      <li>Worked collaboratively on team projects Delivered scalable and robust solutions</li>
+      <li style="list-style-type: circle;">Worked collaboratively on team projects Delivered scalable and robust solutions</li>
     </ul>`,
   },
   {
@@ -86,26 +86,28 @@ const projects = [
     projectLink: "https://manojg9951.github.io/bloomberg-clone/",
     rr: `<h2>Roles and Responsibilities</h2>
 <ul>
-<li>Note: Dynamic Routing Not Working On GitHub Pages You can See The responsiveness with above link and Its limited to 100 API calls per day…</li>
-  <li>Created the Bloomberg Site using Next.js, ensuring a responsive and user-friendly interface.</li>
-  <li>Developed and implemented UI components to enhance the overall visual appeal and functionality of the applications.</li>
-  <li>Ensured consistency in design elements and user interface across different sections of the web applications.</li>
-  <li>Enabled users to view news from different countries in their preferred languages.</li>
-  <li>Implemented a feature allowing users to choose news categories based on their interests.</li>
-  <li>Utilized the newsAPI site's free API calls to fetch and display real-time news content on the site.</li>
-  <li>Innovatively added a Dark Mode Feature, providing users with an alternative visual experience not available in the original site.</li>
+<li style="list-style-type: circle;">Note: Dynamic Routing Not Working On GitHub Pages You can See The responsiveness with above link and Its limited to 100 API calls per day…</li>
+  <li style="list-style-type: circle;">Created the Bloomberg Site using Next.js, ensuring a responsive and user-friendly interface.</li>
+  <li style="list-style-type: circle;">Developed and implemented UI components to enhance the overall visual appeal and functionality of the applications.</li>
+  <li style="list-style-type: circle;">Ensured consistency in design elements and user interface across different sections of the web applications.</li>
+  <li style="list-style-type: circle;">Enabled users to view news from different countries in their preferred languages.</li>
+  <li style="list-style-type: circle;">Implemented a feature allowing users to choose news categories based on their interests.</li>
+  <li style="list-style-type: circle;">Utilized the newsAPI site's free API calls to fetch and display real-time news content on the site.</li>
+  <li style="list-style-type: circle;">Innovatively added a Dark Mode Feature, providing users with an alternative visual experience not available in the original site.</li>
 </ul>`,
   },
   {
-    name: "USHeartfulness",
+    name: "Heartfulness",
     dept: "Frontend",
     projectLink: "https://heartfulness.org/us/#",
     rr: `<h2>Roles and Responsibilities</h2>
-  <p>Contributed as a team member in migrating web applications to React.JS from WordPress. Developed and implemented UI components to enhance the overall visual appeal and functionality of the applications.</p>
-  <p>Ensured consistency in design elements and user interface across different sections of the web applications. Seamlessly integrated frontend and backend for a cohesive user experience.</p>
-  <p>Played a part in optimizing application performance for enhanced efficiency. Contributed to improving user experience through intuitive design elements.</p>
-  <p>Ensured applications were compatible across various devices and browsers. Assisted in delivering robust and scalable solutions to meet project requirements.</p>
-  <p>Demonstrated versatility in handling both frontend and backend development tasks.</p>`,
+    <ul>
+  <li style="list-style-type: circle;">Contributed as a team member in migrating web applications to React.JS and NextJS from WordPress. Developed and implemented UI components to enhance the overall visual appeal and functionality of the applications.</li>
+  <li style="list-style-type: circle;">Ensured consistency in design elements and user interface across different sections of the web applications. Seamlessly integrated frontend and backend for a cohesive user experience.</li>
+  <li style="list-style-type: circle;">Played a part in optimizing application performance for enhanced efficiency. Contributed to improving user experience through intuitive design elements.</li>
+  <li style="list-style-type: circle;">Ensured applications were compatible across various devices and browsers. Assisted in delivering robust and scalable solutions to meet project requirements.</li>
+  <li style="list-style-type: circle;">Demonstrated versatility in handling both frontend and backend development tasks.</li>
+  </ul>`,
   },
   {
     name: "Heartfulness Meditation",
@@ -116,22 +118,22 @@ const projects = [
  
     <strong>Frontend Development:</strong>
     <ul>
-      <li>Migrated WordPress applications to React Developed and implemented UI components Ensured design consistency across applications Optimized application performance</li>
+      <li style="list-style-type: circle;">Migrated WordPress applications to React Developed and implemented UI components Ensured design consistency across applications Optimized application performance</li>
     </ul>
   
     <strong>Full-Stack Collaboration:</strong>
     <ul>
-      <li>Seamlessly integrated frontend and backend Delivered cohesive user experiences</li>
+      <li style="list-style-type: circle;">Seamlessly integrated frontend and backend Delivered cohesive user experiences</li>
     </ul>
   
     <strong>User Experience:</strong>
     <ul>
-      <li>Contributed to intuitive design Ensured cross-browser compatibility Focused on overall user satisfaction</li>
+      <li style="list-style-type: circle;">Contributed to intuitive design Ensured cross-browser compatibility Focused on overall user satisfaction</li>
     </ul>
  
     <strong>Team Contribution:</strong>
     <ul>
-      <li>Worked collaboratively on team projects Delivered scalable and robust solutions</li>
+      <li style="list-style-type: circle;">Worked collaboratively on team projects Delivered scalable and robust solutions</li>
     </ul>`,
   },
   {
@@ -139,11 +141,13 @@ const projects = [
     dept: "Frontend",
     projectLink: "https://heartfulness.org/kanha/",
     rr: `<h2>Roles and Responsibilities</h2>
-  <p>Contributed as a team member in migrating web applications to React.JS from WordPress. Developed and implemented UI components to enhance the overall visual appeal and functionality of the applications.</p>
-  <p>Ensured consistency in design elements and user interface across different sections of the web applications. Seamlessly integrated frontend and backend for a cohesive user experience.</p>
-  <p>Played a part in optimizing application performance for enhanced efficiency. Contributed to improving user experience through intuitive design elements.</p>
-  <p>Ensured applications were compatible across various devices and browsers. Assisted in delivering robust and scalable solutions to meet project requirements.</p>
-  <p>Demonstrated versatility in handling both frontend and backend development tasks.</p>`,
+    <ul>
+  <li style="list-style-type: circle;">Contributed as a team member in migrating web applications to React.JS and NextJS from WordPress. Developed and implemented UI components to enhance the overall visual appeal and functionality of the applications.</li>
+  <li style="list-style-type: circle;">Ensured consistency in design elements and user interface across different sections of the web applications. Seamlessly integrated frontend and backend for a cohesive user experience.</li>
+  <li style="list-style-type: circle;">Played a part in optimizing application performance for enhanced efficiency. Contributed to improving user experience through intuitive design elements.</li>
+  <li style="list-style-type: circle;">Ensured applications were compatible across various devices and browsers. Assisted in delivering robust and scalable solutions to meet project requirements.</li>
+  <li style="list-style-type: circle;">Demonstrated versatility in handling both frontend and backend development tasks.</li>
+  </ul>`,
   },
   {
     name: "Daaji Official",
@@ -153,22 +157,22 @@ const projects = [
  
     <strong>Frontend Development:</strong>
     <ul>
-      <li>Migrated WordPress applications to React Developed and implemented UI components Ensured design consistency across applications Optimized application performance</li>
+      <li style="list-style-type: circle;">Migrated WordPress applications to React Developed and implemented UI components Ensured design consistency across applications Optimized application performance</li>
     </ul>
   
     <strong>Full-Stack Collaboration:</strong>
     <ul>
-      <li>Seamlessly integrated frontend and backend Delivered cohesive user experiences</li>
+      <li style="list-style-type: circle;">Seamlessly integrated frontend and backend Delivered cohesive user experiences</li>
     </ul>
   
     <strong>User Experience:</strong>
     <ul>
-      <li>Contributed to intuitive design Ensured cross-browser compatibility Focused on overall user satisfaction</li>
+      <li style="list-style-type: circle;">Contributed to intuitive design Ensured cross-browser compatibility Focused on overall user satisfaction</li>
     </ul>
  
     <strong>Team Contribution:</strong>
     <ul>
-      <li>Worked collaboratively on team projects Delivered scalable and robust solutions</li>
+      <li style="list-style-type: circle;">Worked collaboratively on team projects Delivered scalable and robust solutions</li>
     </ul>`,
   },
   {
@@ -176,11 +180,13 @@ const projects = [
     dept: "Frontend",
     projectLink: "#",
     rr: `<h2>Roles and Responsibilities</h2>
-  <p>Contributed as a team member in migrating web applications to React.JS from WordPress. Developed and implemented UI components to enhance the overall visual appeal and functionality of the applications.</p>
-  <p>Ensured consistency in design elements and user interface across different sections of the web applications. Seamlessly integrated frontend and backend for a cohesive user experience.</p>
-  <p>Played a part in optimizing application performance for enhanced efficiency. Contributed to improving user experience through intuitive design elements.</p>
-  <p>Ensured applications were compatible across various devices and browsers. Assisted in delivering robust and scalable solutions to meet project requirements.</p>
-  <p>Demonstrated versatility in handling both frontend and backend development tasks.</p>`,
+    <ul>
+  <li style="list-style-type: circle;">Contributed as a team member in migrating web applications to React.JS and NextJS from WordPress. Developed and implemented UI components to enhance the overall visual appeal and functionality of the applications.</li>
+  <li style="list-style-type: circle;">Ensured consistency in design elements and user interface across different sections of the web applications. Seamlessly integrated frontend and backend for a cohesive user experience.</li>
+  <li style="list-style-type: circle;">Played a part in optimizing application performance for enhanced efficiency. Contributed to improving user experience through intuitive design elements.</li>
+  <li style="list-style-type: circle;">Ensured applications were compatible across various devices and browsers. Assisted in delivering robust and scalable solutions to meet project requirements.</li>
+  <li style="list-style-type: circle;">Demonstrated versatility in handling both frontend and backend development tasks.</li>
+  </ul>`,
   },
   {
     name: "Aurigine Pharma",
@@ -188,14 +194,14 @@ const projects = [
     projectLink: "#",
     rr: `<h2>Backend Management Team Member Responsibilities</h2>
 <ul>
-<li>worked on aurigine Timesheet management application</li>
-  <li>Ensuring smooth operation and efficiency of backend systems</li>
-  <li>Monitoring and managing data flow within the Angular application</li>
-  <li>Safeguarding accuracy and integrity of user credentials</li>
-  <li>Conducting thorough code reviews of backend systems</li>
-  <li>Generating comprehensive daily reports on system performance</li>
-  <li>Identifying potential areas for improvement</li>
-  <li>Maintaining stability and reliability of backend infrastructure</li>
+<li style="list-style-type: circle;">worked on aurigine Timesheet management application</li>
+  <li style="list-style-type: circle;">Ensuring smooth operation and efficiency of backend systems</li>
+  <li style="list-style-type: circle;">Monitoring and managing data flow within the Angular application</li>
+  <li style="list-style-type: circle;">Safeguarding accuracy and integrity of user credentials</li>
+  <li style="list-style-type: circle;">Conducting thorough code reviews of backend systems</li>
+  <li style="list-style-type: circle;">Generating comprehensive daily reports on system performance</li>
+  <li style="list-style-type: circle;">Identifying potential areas for improvement</li>
+  <li style="list-style-type: circle;">Maintaining stability and reliability of backend infrastructure</li>
 </ul>`,
   },
 ];
